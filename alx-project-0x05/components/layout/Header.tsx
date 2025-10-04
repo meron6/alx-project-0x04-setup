@@ -25,7 +25,9 @@ const Header: React.FC = () => {
               <Button buttonLabel="Sign Up" buttonBackgroundColor="blue" />
             </>
           ) : (
-            <p className="font-semibold text-lg">Current count : {count}</p>
+            <p className="font-semibold text-lg">
+              Current count : {count}
+            </p>
           )}
         </div>
       </div>
@@ -34,3 +36,4 @@ const Header: React.FC = () => {
 };
 
 export default Header;
+
